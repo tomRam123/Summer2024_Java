@@ -21,7 +21,7 @@ public class Homework_4 {
         } else if (num % 3 == 0 && num % 5 == 0) {
             System.out.println("divisible by 5 and 3");
         }else {
-            System.out.println("number value -> " + num);
+            System.out.println("\nNumber value -> " + num);
         }
 
 
@@ -42,16 +42,15 @@ public class Homework_4 {
         double myPrecentage = (myScore/maxScore) * 100;
 
         if (myPrecentage >= 91 && myPrecentage <=100){
-            System.out.println("Grade-A");
+            System.out.println("\nGrade-A");
         } else if (myPrecentage >= 81 && myPrecentage <=90.99) {
-            System.out.println("Grade-B");
+            System.out.println("\nGrade-B");
         } else if (myPrecentage >= 71 && myPrecentage <=80.99) {
-            System.out.println("Grade-C");
+            System.out.println("\nGrade-C");
         } else if (myPrecentage >= 61 && myPrecentage <=70.99) {
-            System.out.println("Grade-D");
+            System.out.println("\nGrade-D");
         } else if (myPrecentage < 61) {
-            System.out.println("Less than 61");
-
+            System.out.println("\nLess than 61");
         }
     }
 }
